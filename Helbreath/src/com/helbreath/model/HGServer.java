@@ -2,8 +2,8 @@ package com.helbreath.model;
 
 public class HGServer {
 
-	public int main(String args[]){
-		return 0;
+	public static void main(String[] args){
+		
 	}
 	
 }

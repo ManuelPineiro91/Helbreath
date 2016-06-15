@@ -3,11 +3,15 @@ package com.helbreath.model;
 public class Map {
 	
 	private String _name = "";
-	private Grid _grid = null;
+	private MapData _mapData = null;
 	
 	public Map(String name){
-		this._name = name;
+		this.createMap(name);
 	}
 	
+	private void createMap(String name){
+		this._name = name;
+		this._mapData = new Map(this._name);
+	}
 	
 }

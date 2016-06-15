@@ -1,0 +1,6 @@
+package com.helbreath.model;
+
+public class MapData {
+	private int unsigned width = 0;
+	private int unsigned height = 0;
+}

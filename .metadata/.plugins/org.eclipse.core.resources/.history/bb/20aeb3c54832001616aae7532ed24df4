@@ -1,0 +1,9 @@
+package com.helbreath.model;
+
+public class HGServer {
+
+	public static int main(String args[]){
+		return 0;
+	}
+	
+}
